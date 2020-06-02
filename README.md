@@ -11,20 +11,10 @@
  Source:
  This corpus has been collected using the YouTube Data API v3.
 
- Data Set Information:
- The table below lists the datasets:
-
- Dataset --- YouTube ID -- # Spam - # Ham - Total
- 
- Psy ------- 9bZkp7q19f0 --- 175 --- 175 --- 350
-
  Attribute Information:
  The collection is composed by one CSV file per dataset, where each line has the following attributes:
 
  COMMENT_ID,AUTHOR,DATE,CONTENT,TAG
-
- One example bellow:
- z12oglnpoq3gjh4om04cfdlbgp2uepyytpw0k,Francisco Nora,2013-11-28T19:52:35,please like :D [Web Link],1
 
 ## Machine Learning Models
 
