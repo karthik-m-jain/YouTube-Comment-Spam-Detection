@@ -1,13 +1,13 @@
 # YouTube-Comment-Spam-Detection
 
-##Abstract
+## Abstract
 1. Classifying YouTube comments as it attracts malicious users and is a challenge since messages are short and rife with slangs, symbols      and abbreviations.
 2. Using Text classification and prediction model to predict YouTube comments are spam or not.
 3. Using bag-of-words and different machine learning algorithms for prediction
 4. Preprocessing the data to remove punctuations, plurals, to remove stop words, to record binary counts.
 5. Comparing various classification techniques and statistical analysis of results.
 
-##Dataset Description
+## Dataset Description
 Source:
 This corpus has been collected using the YouTube Data API v3.
 
@@ -29,7 +29,7 @@ COMMENT_ID,AUTHOR,DATE,CONTENT,TAG
 One example bellow:
 z12oglnpoq3gjh4om04cfdlbgp2uepyytpw0k,Francisco Nora,2013-11-28T19:52:35,please like :D [Web Link],1
 
-##Machine Learning Models
+## Machine Learning Models
 
 The data was converted into numeric form using both CountVectorizer and TfidfVectorizer. The models were analyzed using data obtained by train test split method and cross-validation. The following list of models were used for classification and clustering. 
 
