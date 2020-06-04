@@ -6,16 +6,7 @@
  3. Using bag-of-words and different machine learning algorithms for prediction
  4. Preprocessing the data to remove punctuations, plurals, to remove stop words, to record binary counts.
  5. Comparing various classification techniques and statistical analysis of results.
-
-## Dataset Description
- Source:
- This corpus has been collected using the YouTube Data API v3.
-
- Attribute Information:
- The collection is composed by one CSV file per dataset, where each line has the following attributes:
-
- COMMENT_ID,AUTHOR,DATE,CONTENT,TAG
-
+ 
 ## Machine Learning Models
 
  The data was converted into numeric form using both CountVectorizer and TfidfVectorizer. The models were analyzed using data obtained   by train test split method and cross-validation. The following list of models were used for classification and clustering. 
